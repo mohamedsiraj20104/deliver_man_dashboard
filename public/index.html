@@ -24,7 +24,7 @@
 
             let marker;
 
-            fetch('/api/locations')
+            fetch('https://deliver-man-dashboard.onrender.com/api/locations')
                 .then(response => response.json())
                 .then(locations => {
                     console.log(locations, "Ui");
